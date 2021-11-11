@@ -16,6 +16,12 @@ and activate it.
 source name-of-env/bin/activate
 ```
 
+Install the dependencies
+
+```sh
+pip install -r requirements.txt
+```
+
 Run the setup script for Airflow `setup-airflow.sh` which will:
 
 - Download and install Airflow 2.2.1
